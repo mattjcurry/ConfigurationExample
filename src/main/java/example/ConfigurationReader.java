@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * Created by mcurx on 8/30/16.
  */
 @Component
-@PropertySource("test.properties")
+@PropertySource("config.properties")
 public class ConfigurationReader {
 
     @Value("${app.release}")
